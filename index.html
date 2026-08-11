@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="STP 文件查看器官方帮助与支持页面">
+  <title>帮助与支持 | STP 文件查看器</title>
+  <link rel="icon" href="app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html" aria-label="返回帮助与支持首页">
+        <img src="app-icon.png" alt="" width="38" height="38">
+        <span>STP 文件查看器</span>
+      </a>
+      <nav aria-label="主导航">
+        <a aria-current="page" href="index.html">帮助与支持</a>
+        <a href="privacy.html">隐私政策</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro-band">
+      <div class="shell intro-grid">
+        <div>
+          <p class="eyebrow">APP 支持</p>
+          <h1>STP 文件查看器</h1>
+          <p class="lede">离线打开 STEP Part 21 文件，查看线框、实体结构、文件信息、诊断与源码。遇到问题时，请告诉我们设备型号、iOS 版本和应用中的错误提示。</p>
+          <a class="primary-action" href="mailto:chenttgmai@gmail.com?subject=STP%20%E6%96%87%E4%BB%B6%E6%9F%A5%E7%9C%8B%E5%99%A8%20App%20%E6%94%AF%E6%8C%81">邮件联系支持</a>
+        </div>
+        <aside class="contact-panel" aria-label="联系信息">
+          <span class="panel-label">支持邮箱</span>
+          <a href="mailto:chenttgmai@gmail.com">chenttgmai@gmail.com</a>
+          <p>请勿发送包含敏感、保密或受许可限制内容的 STEP 文件。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="facts-band" aria-label="版本信息">
+      <div class="shell facts-grid">
+        <div>
+          <span class="fact-label">当前版本</span>
+          <strong>1.0</strong>
+        </div>
+        <div>
+          <span class="fact-label">系统要求</span>
+          <strong>iOS / iPadOS 17+</strong>
+        </div>
+        <div>
+          <span class="fact-label">文件大小</span>
+          <strong>单个不超过 32 MB</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-band">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">常见问题</p>
+          <h2>文件、预览与本地存储</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>如何打开 STEP 文件？</summary>
+            <p>在应用文件库中点击“打开文件”，然后从系统“文件”选择器中选择扩展名为 <code>.stp</code> 或 <code>.step</code> 的 STEP Part 21 文件。也可以点击“打开示例”直接体验。</p>
+          </details>
+          <details>
+            <summary>应用可以显示哪些内容？</summary>
+            <p>当前版本可显示基础点、直线、折线，以及圆和椭圆边的有界折线近似；并提供旋转、缩放、平移、标准视角、实体结构、文件信息、诊断和源码搜索。</p>
+          </details>
+          <details>
+            <summary>为什么文件只能显示部分线框？</summary>
+            <p>本应用定位为快速线框查看器，不是完整 CAD 内核。只包含高级样条、曲面、实体布尔结果或厂商私有实体的文件可能只能显示部分内容。请在查看器的“信息”页检查解析诊断。</p>
+          </details>
+          <details>
+            <summary>为什么文件无法导入？</summary>
+            <p>请确认文件是文本形式的 STEP Part 21 文件、大小不超过 32 MB 且没有损坏。空文件、符号链接、过度复杂或结构异常的文件会被安全拒绝。</p>
+          </details>
+          <details>
+            <summary>导入的文件保存在哪里？</summary>
+            <p>文件会复制到应用自己的私有本地文件库，不会上传到服务器。删除文件库中的项目会删除应用保存的副本，但不会修改“文件”App、iCloud Drive 或其他文件提供器中的原始文件。</p>
+          </details>
+          <details>
+            <summary>如何清除所有本地文件？</summary>
+            <p>打开应用“设置”，选择“删除全部文件”。应用会清除自己的文件副本、恢复中的文件和共享临时副本。卸载应用也会删除应用私有目录中的文件和索引。</p>
+          </details>
+          <details>
+            <summary>如何报告问题？</summary>
+            <p>请发送设备型号、iOS 或 iPadOS 版本、应用版本以及错误提示截图。若必须提供示例文件，请先删除作者、组织和其他敏感元数据，并确认您有权分享该文件。</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="privacy-band">
+      <div class="shell privacy-grid">
+        <div>
+          <p class="eyebrow">隐私</p>
+          <h2>文件始终留在设备上</h2>
+        </div>
+        <div>
+          <p>无需账号，不含广告、分析 SDK 或跟踪服务。应用只在您明确选择文件后进行本地解析；除非您主动使用系统共享功能，否则文件及其元数据不会离开设备。</p>
+          <a class="text-link" href="privacy.html">阅读完整隐私政策</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <span>&copy; 2026 tingting chen</span>
+      <a href="privacy.html">隐私政策</a>
+    </div>
+  </footer>
+</body>
+</html>
